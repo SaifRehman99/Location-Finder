@@ -70,6 +70,17 @@ let printHTML = (data) => {
             </div>
             </div>`)
             .join('');
-        resDiv.innerHTML = html
+        resDiv.innerHTML = html;
+    }
+    else{
+        
+        resDiv.innerHTML = `
+        <div class = "card bg-dark">
+        <div class = "card-body text-white">
+        <h3 class = 'text-center'>
+        NO DATA FOUND</h3>
+        
+        </div></div>
+        `
     }
 }
