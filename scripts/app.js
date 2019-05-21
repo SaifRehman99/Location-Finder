@@ -8,6 +8,7 @@ const inputText = document.querySelector('#locationSearch');
 inputText.addEventListener('input', () => findLocation(inputText.value));
 
 // defining the async function here to fetch the data
+// using the async here
 let findLocation = async (value) => {
 
     // fetching the json data here
